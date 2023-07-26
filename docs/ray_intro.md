@@ -2,22 +2,18 @@
 
 ## 1. What is Ray?
 
-- Ray is a distributed execution framework for AI applications.
+Ray is a distributed execution framework for AI applications.
 
-## 2. Coparison with other frameworks
+Ray Features:
 
-- Ray vs. Spark
-- Ray vs. Dask
-- Ray vs. MPI
-- Ray vs. Horovod
-- Ray vs. PyTorch Distributed
+- **Simplicity:** Distributed processing can be described intuitively
+- **Flexibility:** ML tasks such as data preprocessing, model learning, hyperparameter tuning, reinforcement learning, and model serving can be distributed.
+- **Scalability:** Scalable from local machines to multiple clusters with almost no code changes.
 
-## 3. Ray framework
+![Ray Layer and Integrations](https://raw.githubusercontent.com/maxpumperla/learning_ray/main/notebooks/images/chapter_01/ray_layers.png)
 
-<!-- ![Ray framework](https://docs.ray.io/en/latest/_images/map-of-ray.png) -->
+## 2. Ray framework
 
-- Ray AI Runtime
-- Ray Core
-- Ray Cluster
-
-## 4. Usecase
+The Ray library initially provided Ray Tune and Ray RLlib.  
+In recent years, the functionality has been rapidly extended to support other ML tasks.
+![Ray framework](https://docs.ray.io/en/latest/_images/map-of-ray.png)
